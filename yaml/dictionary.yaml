@@ -1,0 +1,18 @@
+#Dictionary or hash map consisting of multiple key value pairs
+
+employee:
+    name: john
+    gender: male
+    age: 24
+
+---
+
+#Dictionary in Dictionary 
+
+employee:
+    name: john
+    gender: male
+    age: 24
+    address:
+      city: edison
+      state: 'new jersy'

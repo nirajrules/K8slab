@@ -1,0 +1,5 @@
+# Key / Value or Property Syntax for YAML
+# Notice the space after the key name (property1:<space>value1)
+
+property1: value1
+property2: value2

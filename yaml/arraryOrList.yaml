@@ -1,0 +1,38 @@
+#Array or List of items
+#Each item should start with '-' and maintain the same identation
+
+-   name: apple
+    color: red
+    weight: 100g
+-   name: apple
+    color: red
+    weight: 90g 
+-   name: mango
+    color: yellow
+    weight: 150g
+
+---
+
+#Dictionary with Array
+
+employees:
+  - name: abc
+    age: 30
+  - name: pqr
+    age: 40 
+
+---
+
+#Dictionary with Arrary containing Dictionary 
+
+employess:
+  - name: abc
+    age: 30
+    address:
+      city: charlotte
+      state: NC
+  - name: pqr
+    age: 40
+    address:
+      city: raleigh
+      state: NC
