@@ -70,7 +70,7 @@
        name: docker
        enabled: yes
 
-  #- name: Download UCP tar file
+  #- name: Download UCP tar file for offline install
   #  get_url:
   #    url: '{{ ucp_tar_url }}'
   #    dest: '{{ dest_dir }}'
@@ -80,7 +80,7 @@
   - name: Pull UCP image from Docker Hub
     shell: "docker image pull docker/ucp:3.2.5"
 
-  #- name: Remove ucp tar file from the server
+  #- name: Remove ucp tar file from the server for offline install
   #  file:
   #    path: "{{ dest_dir }}/{{ ucp_tar_file }}"
   #    state: absent
