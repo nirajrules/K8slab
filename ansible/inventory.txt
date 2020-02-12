@@ -1,0 +1,18 @@
+#Prep the master node first and then run the node prep on the rest of the nodes
+#ansible-playbook -i /etc/ansible/inventory.txt ucpnodeinstall.yml
+ 
+[masters]
+172.31.5.236
+172.31.1.229
+
+[workers]
+172.31.5.89
+172.31.4.124
+172.31.8.101
+172.31.10.18
+172.31.6.31
+172.31.10.112
+
+[nodes:children]
+masters
+workers
